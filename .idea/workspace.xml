@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11f3d15d-a9d5-4195-9868-0d7b99f55cf1" name="Default Changelist" comment="puzzle1">
+    <list default="true" id="11f3d15d-a9d5-4195-9868-0d7b99f55cf1" name="Default Changelist" comment="puzzle1.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle1.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle1.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/input/puzzle1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -59,11 +58,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/input/puzzle1" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/input" />
+      <recent name="$PROJECT_DIR$/input/puzzle1" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin script.Puzzle1">
+  <component name="RunManager" selected="Kotlin script.Puzzle2.kts">
     <configuration name="MainKt" type="JetRunConfigurationType" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="liberica-11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -88,6 +88,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Puzzle2.kts" type="KotlinStandaloneScriptRunConfigurationType" nameIsGenerated="true">
+      <shortenClasspath name="NONE" />
+      <option name="filePath" value="$PROJECT_DIR$/Puzzle2.kts" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="AoC" />
       <option name="filePath" value="" />
@@ -98,6 +105,7 @@
     <list>
       <item itemvalue="Kotlin.MainKt" />
       <item itemvalue="Kotlin script.Puzzle1" />
+      <item itemvalue="Kotlin script.Puzzle2.kts" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -123,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638363361248</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="puzzle1.1">
+      <created>1638364372380</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638364372380</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +155,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="puzzle1" />
-    <option name="LAST_COMMIT_MESSAGE" value="puzzle1" />
+    <MESSAGE value="puzzle1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="puzzle1.1" />
   </component>
 </project>
