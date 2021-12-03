@@ -28,4 +28,51 @@ fun puzzle3() {
     println(gamma.toInt(2)*epsilon.toInt(2))
 }
 
-puzzle3()
+fun puzzle3dot1() {
+    fun trimO2(input: List<String>, index: Int): List<String>{
+        var oneBit = 0
+
+        input.forEach { s ->
+            if (s[index] == '1') oneBit++
+        }
+
+        val filter = if (oneBit >= input.size / 2.0f) '1' else '0'
+
+        val result =  input.filter { it[index] == filter }
+        return result
+    }
+
+    fun trimCO2(input: List<String>, index: Int): List<String>{
+        var oneBit = 0
+
+        input.forEach { s ->
+            if (s[index] == '1') oneBit++
+        }
+
+        val filter = if (oneBit >= input.size / 2.0f) '0' else '1'
+
+        val result =  input.filter { it[index] == filter }
+        return result
+    }
+
+    var potentialO2 = lines
+    var i = 0
+    while(potentialO2.size > 1){
+        potentialO2 = trimO2(potentialO2, i)
+        i++
+    }
+
+    var potentialCO2 = lines
+    var j = 0
+    while(potentialCO2.size > 1){
+        potentialCO2 = trimCO2(potentialCO2, j)
+        j++
+    }
+
+    println(potentialO2)
+    println(potentialCO2)
+
+    println(potentialO2[0].toInt(2) * potentialCO2[0].toInt(2))
+}
+
+puzzle3dot1()
