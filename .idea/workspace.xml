@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11f3d15d-a9d5-4195-9868-0d7b99f55cf1" name="Default Changelist" comment="puzzle1.1">
+    <list default="true" id="11f3d15d-a9d5-4195-9868-0d7b99f55cf1" name="Default Changelist" comment="Puzzle2 and 2.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +63,7 @@
       <recent name="$PROJECT_DIR$/input/puzzle1" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin script.Puzzle2.kts">
+  <component name="RunManager" selected="Kotlin script.Puzzle3.kts">
     <configuration name="MainKt" type="JetRunConfigurationType" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="liberica-11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -95,6 +95,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Puzzle3.kts" type="KotlinStandaloneScriptRunConfigurationType" nameIsGenerated="true">
+      <shortenClasspath name="NONE" />
+      <option name="filePath" value="$PROJECT_DIR$/Puzzle3.kts" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="AoC" />
       <option name="filePath" value="" />
@@ -106,6 +113,7 @@
       <item itemvalue="Kotlin.MainKt" />
       <item itemvalue="Kotlin script.Puzzle1" />
       <item itemvalue="Kotlin script.Puzzle2.kts" />
+      <item itemvalue="Kotlin script.Puzzle3.kts" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -138,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638364372380</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Puzzle2 and 2.1">
+      <created>1638437707031</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638437707032</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +171,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="puzzle1" />
     <MESSAGE value="puzzle1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="puzzle1.1" />
+    <MESSAGE value="Puzzle2 and 2.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Puzzle2 and 2.1" />
   </component>
 </project>
