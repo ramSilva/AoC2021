@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11f3d15d-a9d5-4195-9868-0d7b99f55cf1" name="Default Changelist" comment="Puzzle3">
+    <list default="true" id="11f3d15d-a9d5-4195-9868-0d7b99f55cf1" name="Default Changelist" comment="Puzzle3.1">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle3.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle3.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib.jar!/kotlin/collections/CollectionsKt.class" root0="SKIP_INSPECTION" />
   </component>
@@ -55,7 +63,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Kotlin" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -64,7 +72,7 @@
       <recent name="$PROJECT_DIR$/input/puzzle1" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin script.Puzzle3.kts">
+  <component name="RunManager" selected="Kotlin script.Puzzle4.kts">
     <configuration name="MainKt" type="JetRunConfigurationType" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="liberica-11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -103,6 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Puzzle4.kts" type="KotlinStandaloneScriptRunConfigurationType" nameIsGenerated="true">
+      <shortenClasspath name="NONE" />
+      <option name="filePath" value="$PROJECT_DIR$/Puzzle4.kts" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="AoC" />
       <option name="filePath" value="" />
@@ -114,6 +129,7 @@
       <item itemvalue="Kotlin.MainKt" />
       <item itemvalue="Kotlin script.Puzzle1" />
       <item itemvalue="Kotlin script.Puzzle2.kts" />
+      <item itemvalue="Kotlin script.Puzzle4.kts" />
       <item itemvalue="Kotlin script.Puzzle3.kts" />
     </list>
   </component>
@@ -161,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638528431249</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Puzzle3.1">
+      <created>1638529940955</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638529940955</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,17 +204,7 @@
     <MESSAGE value="puzzle1.1" />
     <MESSAGE value="Puzzle2 and 2.1" />
     <MESSAGE value="Puzzle3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Puzzle3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/Puzzle3.kts</url>
-          <line>35</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Puzzle3.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Puzzle3.1" />
   </component>
 </project>
