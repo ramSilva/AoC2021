@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11f3d15d-a9d5-4195-9868-0d7b99f55cf1" name="Default Changelist" comment="Puzzle4">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle4.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Puzzle4.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle1.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle2.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle3.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Puzzle4.kts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +56,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib.jar!/kotlin/collections/CollectionsKt.class" root0="SKIP_INSPECTION" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="21alGUGN7UeEotEvPMie6VwlAr8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -72,12 +80,10 @@
       <recent name="$PROJECT_DIR$/input/puzzle1" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin script.Puzzle4.kts">
-    <configuration name="MainKt" type="JetRunConfigurationType" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="liberica-11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+  <component name="RunManager">
+    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
-      <module name="AoC" />
+      <module name="AoC2021.main" />
       <shortenClasspath name="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,34 +96,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Puzzle1" type="KotlinStandaloneScriptRunConfigurationType">
-      <shortenClasspath name="NONE" />
-      <option name="filePath" value="$PROJECT_DIR$/Puzzle1.kts" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Puzzle2.kts" type="KotlinStandaloneScriptRunConfigurationType" nameIsGenerated="true">
-      <shortenClasspath name="NONE" />
-      <option name="filePath" value="$PROJECT_DIR$/Puzzle2.kts" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Puzzle3.kts" type="KotlinStandaloneScriptRunConfigurationType" nameIsGenerated="true">
-      <shortenClasspath name="NONE" />
-      <option name="filePath" value="$PROJECT_DIR$/Puzzle3.kts" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Puzzle4.kts" type="KotlinStandaloneScriptRunConfigurationType" nameIsGenerated="true">
-      <shortenClasspath name="NONE" />
-      <option name="filePath" value="$PROJECT_DIR$/Puzzle4.kts" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="AoC" />
       <option name="filePath" value="" />
@@ -125,13 +103,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Kotlin.MainKt" />
-      <item itemvalue="Kotlin script.Puzzle1" />
-      <item itemvalue="Kotlin script.Puzzle2.kts" />
-      <item itemvalue="Kotlin script.Puzzle4.kts" />
-      <item itemvalue="Kotlin script.Puzzle3.kts" />
-    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.MainKt (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -204,7 +180,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="puzzle1" />

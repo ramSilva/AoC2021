@@ -1,9 +1,11 @@
+package puzzles
+
 import java.io.File
 
-val lines = File("input/puzzle3/input.txt").readLines()
+private val lines = File("input/puzzle3/input.txt").readLines()
 //val lines = File("input/puzzle3/testInput.txt").readLines()
 
-fun puzzle3() {
+fun puzzle3(): Int {
     val oneBits = IntArray(lines[0].length) // amount of 1 bits per position
 
     lines.forEach { s ->
@@ -25,10 +27,10 @@ fun puzzle3() {
     println(gamma)
     println(epsilon)
 
-    println(gamma.toInt(2)*epsilon.toInt(2))
+    return gamma.toInt(2)*epsilon.toInt(2)
 }
 
-fun puzzle3dot1() {
+fun puzzle3dot1(): Int {
     fun trimO2(input: List<String>, index: Int): List<String>{
         var oneBit = 0
 
@@ -72,7 +74,5 @@ fun puzzle3dot1() {
     println(potentialO2)
     println(potentialCO2)
 
-    println(potentialO2[0].toInt(2) * potentialCO2[0].toInt(2))
+    return potentialO2[0].toInt(2) * potentialCO2[0].toInt(2)
 }
-
-puzzle3dot1()

@@ -1,9 +1,11 @@
+package puzzles
+
 import java.io.File
 
-val lines = File("input/puzzle4/input.txt").readLines()
+private val lines = File("input/puzzle4/input.txt").readLines()
 //val lines = File("input/puzzle4/testInput.txt").readLines()
 
-fun puzzle4() {
+fun puzzle4(): Int {
     data class Entry(
         val number: Int,
         val checked: Boolean
@@ -39,10 +41,11 @@ fun puzzle4() {
                         && newBoard[x + 1].checked
                         && newBoard[x + 2].checked
                         && newBoard[x + 3].checked
-                        && newBoard[x + 4].checked) {
+                        && newBoard[x + 4].checked
+                    ) {
                         val uncheckedSum = newBoard.filter { !it.checked }.sumOf { it.number }
-                        println(uncheckedSum * number)
-                        return
+
+                        return uncheckedSum * number
                     }
                 }
                 for (y in 0..4) {
@@ -50,19 +53,22 @@ fun puzzle4() {
                         && newBoard[y + 5].checked
                         && newBoard[y + 10].checked
                         && newBoard[y + 15].checked
-                        && newBoard[y + 20].checked) {
+                        && newBoard[y + 20].checked
+                    ) {
                         val uncheckedSum = newBoard.filter { !it.checked }.sumOf { it.number }
-                        println(uncheckedSum * number)
-                        return
+
+                        return uncheckedSum * number
                     }
                 }
 
                 newBoard
             }.toMutableList()
         }
+
+    return 0
 }
 
-fun puzzle4dot1() {
+fun puzzle4dot1(): Int {
     data class Entry(
         val number: Int,
         val checked: Boolean
@@ -74,7 +80,8 @@ fun puzzle4dot1() {
                 && board[x + 1].checked
                 && board[x + 2].checked
                 && board[x + 3].checked
-                && board[x + 4].checked) {
+                && board[x + 4].checked
+            ) {
 
                 return true
             }
@@ -85,7 +92,8 @@ fun puzzle4dot1() {
                 && board[y + 5].checked
                 && board[y + 10].checked
                 && board[y + 15].checked
-                && board[y + 20].checked) {
+                && board[y + 20].checked
+            ) {
 
                 return true
             }
@@ -121,18 +129,15 @@ fun puzzle4dot1() {
 
                 if (boards.size == 1 && checkWin(newBoard)) {
                     val uncheckedSum = newBoard.filter { !it.checked }.sumOf { it.number }
-                    println(uncheckedSum * number)
-                    return
+
+                    return uncheckedSum * number
                 }
 
                 newBoard
             }.filter {
                 !checkWin(it) || boards.size == 1
-            }.also {
-
             }.toMutableList()
         }
+
+    return 0
 }
-
-
-puzzle4dot1()
