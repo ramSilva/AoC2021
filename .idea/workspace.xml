@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11f3d15d-a9d5-4195-9868-0d7b99f55cf1" name="Default Changelist" comment="Puzzle4">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+    <list default="true" id="11f3d15d-a9d5-4195-9868-0d7b99f55cf1" name="Default Changelist" comment="Change from kts to kt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle1.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle2.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle3.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Puzzle4.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +62,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/input" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -75,8 +71,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/input" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/puzzles" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/input/puzzle1" />
     </key>
   </component>
@@ -167,7 +164,28 @@
       <option name="project" value="LOCAL" />
       <updated>1638621675252</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add gitignore">
+      <created>1638638756623</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1638638756624</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update gitignore">
+      <created>1638638877377</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1638638877377</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Change from kts to kt">
+      <created>1638638993021</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1638638993021</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,6 +206,20 @@
     <MESSAGE value="Puzzle3" />
     <MESSAGE value="Puzzle3.1" />
     <MESSAGE value="Puzzle4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Puzzle4" />
+    <MESSAGE value="Add gitignore" />
+    <MESSAGE value="Update gitignore" />
+    <MESSAGE value="Change from kts to kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change from kts to kt" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle5.kt</url>
+          <line>61</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
