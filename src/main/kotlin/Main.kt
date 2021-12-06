@@ -1,5 +1,7 @@
 import puzzles.puzzle5
+import puzzles.puzzle6
+import puzzles.puzzle6masBem
 
 fun main() {
-    println(puzzle5())
+    println(puzzle6masBem())
 }
