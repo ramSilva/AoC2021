@@ -1,9 +1,10 @@
 package puzzles
 
 import java.io.File
+import java.util.*
 
 //private val lines = File("input/puzzle6/input.txt").readLines()
-private val lines = File("input/puzzle6/input.txt").readLines().toMutableList()
+private val lines = File("input/puzzle6/testInput.txt").readLines().toMutableList()
 
 fun puzzle6(): Int {
     for (i in 0 until 80) {
@@ -20,31 +21,15 @@ fun puzzle6(): Int {
 }
 
 fun puzzle6masBem(): Long {
-    var ages = lines[0].split(",").map { it.toInt() }.fold(mutableMapOf<Int, Long>()) { acc, v ->
-        acc[v] = (acc[v] ?: 0).plus(1)
+    val ages = lines[0].split(",").map { it.toInt() }.fold(LongArray(9)) { acc, v ->
+        acc[v]++
         acc
-    }.toSortedMap()
+    }.toMutableList()
 
     for (i in 0 until 256) {
-        val newAges = ages.toSortedMap()
-        var newFish = 0L
-
-        ages.forEach { (k, v) ->
-            if (k == 0) {
-                newFish = newAges[k]!!
-                newAges[0] = 0
-            } else {
-                newAges[k - 1] = (newAges[k - 1] ?: 0).plus(newAges[k]!!)
-                newAges[k] = 0
-            }
-        }
-        newAges[6] = (newAges[6] ?: 0).plus(newFish)
-        newAges[8] = (newAges[8] ?: 0).plus(newFish)
-
-        ages = newAges
+        Collections.rotate(ages, -1)
+        ages[6] += ages[8]
     }
 
-    var fish = 0L
-    ages.forEach { (_, v) -> fish += v }
-    return fish
+    return ages.sum()
 }
