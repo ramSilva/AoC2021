@@ -2,6 +2,8 @@ package puzzles
 
 import java.io.File
 import java.util.*
+import kotlin.system.measureNanoTime
+import kotlin.system.measureTimeMillis
 
 //private val lines = File("input/puzzle6/input.txt").readLines()
 private val lines = File("input/puzzle6/testInput.txt").readLines().toMutableList()
