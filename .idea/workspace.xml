@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11f3d15d-a9d5-4195-9868-0d7b99f55cf1" name="Default Changelist" comment="Puzzle">
+    <list default="true" id="11f3d15d-a9d5-4195-9868-0d7b99f55cf1" name="Default Changelist" comment="Puzzle 8.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle7.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle7.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle8.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle8.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638876099584</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Puzzle 8">
+      <created>1638965052790</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1638965052790</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,13 +265,11 @@
     <MESSAGE value="Puzzle6" />
     <MESSAGE value="Shamelessly steal idea from reddit to improve puzzle6" />
     <MESSAGE value="Puzzle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Puzzle" />
+    <MESSAGE value="Puzzle 8" />
+    <MESSAGE value="Puzzle 8.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Puzzle 8.1" />
   </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="JetRunConfigurationType">
-        <watch expression="(distance * (distance + 1)) / 2" language="kotlin" />
-      </configuration>
-    </watches-manager>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AoC2021$MainKt__1_.ic" NAME="MainKt (1) Coverage Results" MODIFIED="1638970761625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
