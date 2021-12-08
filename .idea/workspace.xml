@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11f3d15d-a9d5-4195-9868-0d7b99f55cf1" name="Default Changelist" comment="Shamelessly steal idea from reddit to improve puzzle6">
+    <list default="true" id="11f3d15d-a9d5-4195-9868-0d7b99f55cf1" name="Default Changelist" comment="Puzzle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle6.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle7.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle7.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638789546829</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Puzzle">
+      <created>1638876099584</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1638876099584</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,7 +257,8 @@
     <MESSAGE value="Improve puzzle5" />
     <MESSAGE value="Puzzle6" />
     <MESSAGE value="Shamelessly steal idea from reddit to improve puzzle6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shamelessly steal idea from reddit to improve puzzle6" />
+    <MESSAGE value="Puzzle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Puzzle" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
