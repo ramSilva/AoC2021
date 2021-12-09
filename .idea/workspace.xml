@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11f3d15d-a9d5-4195-9868-0d7b99f55cf1" name="Default Changelist" comment="Puzzle 8.1">
+    <list default="true" id="11f3d15d-a9d5-4195-9868-0d7b99f55cf1" name="Default Changelist" comment="Puzzle 9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle8.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle8.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle9.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle9.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638978418744</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Puzzle 9">
+      <created>1639045357319</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1639045357319</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,12 +281,13 @@
     <MESSAGE value="Puzzle" />
     <MESSAGE value="Puzzle 8" />
     <MESSAGE value="Puzzle 8.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Puzzle 8.1" />
+    <MESSAGE value="Puzzle 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Puzzle 9" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="JetRunConfigurationType">
-        <watch expression="((((map.getOrNull(y)) ?: emptyList()).getOrNull(x)) ?: Int.MAX_VALUE)" language="kotlin" />
+        <watch expression="map.getValue(x, y)" language="kotlin" />
       </configuration>
     </watches-manager>
   </component>
