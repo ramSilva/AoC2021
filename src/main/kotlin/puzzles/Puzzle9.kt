@@ -90,3 +90,26 @@ fun puzzle9dot1(): Int {
 
     return basins.sortedBy { it.size }.takeLast(3).map { it.size }.reduce { acc, size -> acc * size }
 }
+
+fun growBasin(map: List<List<Int>>, currentBasin: Set<Pair<Int, Int>>): Set<Pair<Int, Int>> =
+    currentBasin.fold(currentBasin.toMutableSet()) { acc, basinPosition ->
+        basinPosition.adjacentPositions().forEach { adjacentPosition ->
+            if (map.getValue(adjacentPosition.first, adjacentPosition.second) < 9) acc.add(adjacentPosition)
+        }
+        acc
+    }.let {
+        if (it.size == currentBasin.size) currentBasin // if there were no new positions added, the basin is complete
+        else growBasin(map, it)
+    }
+
+fun puzzle9dot1paraOPupo() = lines.fold(mutableListOf<MutableList<Int>>()) { acc, it ->
+    it.fold(mutableListOf<Int>()) { acc, v -> acc.also { acc.add(v.toString().toInt()) } }.also { acc.add(it) }
+    acc
+}.let {
+    it.foldIndexed(mutableListOf<Set<Pair<Int, Int>>>()) { y, acc, row ->
+        row.forEachIndexed { x, _ ->
+            if (isLowestPoint(it, Pair(x, y))) acc.add(growBasin(it, mutableSetOf(Pair(x, y))))
+        }
+        acc
+    }.sortedBy { it.size }.takeLast(3).map { it.size }.reduce { acc, size -> acc * size }
+}

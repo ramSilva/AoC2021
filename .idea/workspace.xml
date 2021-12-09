@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11f3d15d-a9d5-4195-9868-0d7b99f55cf1" name="Default Changelist" comment="Add comments and make code more legible" />
+    <list default="true" id="11f3d15d-a9d5-4195-9868-0d7b99f55cf1" name="Default Changelist" comment="Replace list with set to automatically avoid duplicates">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle9.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle9.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -252,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639049599935</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Replace list with set to automatically avoid duplicates">
+      <created>1639061947354</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1639061947354</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,7 +297,8 @@
     <MESSAGE value="Puzzle 8.1" />
     <MESSAGE value="Puzzle 9" />
     <MESSAGE value="Puzzle 9.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Puzzle 9.1" />
+    <MESSAGE value="Replace list with set to automatically avoid duplicates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Replace list with set to automatically avoid duplicates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
