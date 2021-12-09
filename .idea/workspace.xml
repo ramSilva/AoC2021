@@ -64,7 +64,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/kotlin/puzzles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/input" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -72,8 +72,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/kotlin/puzzles" />
       <recent name="$PROJECT_DIR$/input" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/puzzles" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/input/puzzle1" />
     </key>
@@ -235,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638965052790</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Puzzle 8.1">
+      <created>1638978418744</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1638978418744</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -268,6 +275,13 @@
     <MESSAGE value="Puzzle 8" />
     <MESSAGE value="Puzzle 8.1" />
     <option name="LAST_COMMIT_MESSAGE" value="Puzzle 8.1" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JetRunConfigurationType">
+        <watch expression="((((map.getOrNull(y)) ?: emptyList()).getOrNull(x)) ?: Int.MAX_VALUE)" language="kotlin" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AoC2021$MainKt__1_.ic" NAME="MainKt (1) Coverage Results" MODIFIED="1638970761625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
