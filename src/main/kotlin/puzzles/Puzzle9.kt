@@ -47,27 +47,22 @@ fun puzzle9dot1(): Int {
     val map = mutableListOf<MutableList<Int>>()
 
     fun growBasin(
-        currentBasin: List<Pair<Int, Int>>,
-        checkedPos: List<Pair<Int, Int>>
-    ): List<Pair<Int, Int>> {
+        currentBasin: Set<Pair<Int, Int>>,
+    ): Set<Pair<Int, Int>> {
 
         // fUnCtIoNaL PrOgRAmMiNg
-        val newBasin = currentBasin.toMutableList()
-        val checkedPosCopy = checkedPos.toMutableList()
+        val newBasin = currentBasin.toMutableSet()
 
         currentBasin.forEach { basinPosition ->
             basinPosition.adjacentPositions().forEach { adjacentPosition ->
-                if (map.getValue(adjacentPosition.first, adjacentPosition.second) < 9
-                    && !checkedPosCopy.contains(adjacentPosition)
-                ) {
+                if (map.getValue(adjacentPosition.first, adjacentPosition.second) < 9) {
                     newBasin.add(adjacentPosition)
-                    checkedPosCopy.add(adjacentPosition)
                 }
             }
         }
 
         return if (newBasin.size == currentBasin.size) currentBasin // if there were no new positions added, the basin is complete
-        else growBasin(newBasin, checkedPosCopy) // recursion baby
+        else growBasin(newBasin) // recursion baby
     }
 
     // create the map
@@ -81,12 +76,12 @@ fun puzzle9dot1(): Int {
         map.add(row)
     }
 
-    val basins = mutableListOf<List<Pair<Int, Int>>>()
+    val basins = mutableListOf<Set<Pair<Int, Int>>>()
 
     map.forEachIndexed { y, row ->
         row.forEachIndexed { x, _ ->
             if (isLowestPoint(map, Pair(x, y))) {
-                val basin = growBasin(mutableListOf(Pair(x, y)), mutableListOf(Pair(x, y)))
+                val basin = growBasin(mutableSetOf(Pair(x, y)))
 
                 basins.add(basin)
             }
