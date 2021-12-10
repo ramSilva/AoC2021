@@ -52,14 +52,13 @@ fun puzzle10dot1(): Long {
     }.filter { it != 0L }.sorted().let { it[it.size / 2] }
 }
 
-val open = "(<{["
-val close = ")>}]"
+val syntax = mapOf('(' to ')', '<' to '>', '[' to ']', '{' to '}')
 val scores = mapOf(')' to 3, ']' to 57, '}' to 1197, '>' to 25137)
 val scores2 = mapOf(')' to 1, ']' to 2, '}' to 3, '>' to 4)
 
 fun puzzle10golf() = lines.map { line ->
     line.fold(ArrayDeque<Char>()) { acc, char ->
-        if (char in open) acc.push(close[open.indexOf(char)])
+        if (char in syntax) acc.push(syntax[char]!!)
         else if (char != acc.pop()) return@map scores[char]!!
 
         acc
@@ -68,7 +67,7 @@ fun puzzle10golf() = lines.map { line ->
 
 fun puzzle10dot1golf() = lines.map { line ->
     line.fold(ArrayDeque<Char>()) { acc, char ->
-        if (char in open) acc.push(close[open.indexOf(char)])
+        if (char in syntax) acc.push(syntax[char]!!)
         else if (char != acc.pop()) return@map 0
 
         acc
