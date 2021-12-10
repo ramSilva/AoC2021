@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11f3d15d-a9d5-4195-9868-0d7b99f55cf1" name="Default Changelist" comment="Replace list with set to automatically avoid duplicates">
+    <list default="true" id="11f3d15d-a9d5-4195-9868-0d7b99f55cf1" name="Default Changelist" comment="Puzzle 10">
+      <change afterPath="$PROJECT_DIR$/input/puzzle10/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/puzzle10/testInput.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle10.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle9.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle9.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +66,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/input" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/kotlin/puzzles" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -72,8 +74,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/input" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/puzzles" />
+      <recent name="$PROJECT_DIR$/input" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/input/puzzle1" />
     </key>
@@ -263,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639061947354</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Make pupo's version">
+      <created>1639063986739</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1639063986739</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,7 +307,9 @@
     <MESSAGE value="Puzzle 9" />
     <MESSAGE value="Puzzle 9.1" />
     <MESSAGE value="Replace list with set to automatically avoid duplicates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Replace list with set to automatically avoid duplicates" />
+    <MESSAGE value="Make pupo's version" />
+    <MESSAGE value="Puzzle 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Puzzle 10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

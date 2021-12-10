@@ -1,7 +1,6 @@
-import puzzles.puzzle9
-import puzzles.puzzle9dot1
-import puzzles.puzzle9dot1paraOPupo
+import puzzles.puzzle10
+import puzzles.puzzle10dot1
 
 fun main() {
-    println(puzzle9dot1paraOPupo())
+    println(puzzle10dot1())
 }
