@@ -7,7 +7,7 @@ private val lines = File("input/puzzle9/input.txt").readLines().toMutableList()
 fun List<List<Int>>.getValue(x: Int, y: Int) =
     ((this.getOrNull(y)) ?: emptyList()).getOrNull(x) ?: Int.MAX_VALUE
 
-fun Pair<Int, Int>.adjacentPositions() = listOf(
+private fun Pair<Int, Int>.adjacentPositions() = listOf(
     Pair(this.first - 1, this.second),
     Pair(this.first + 1, this.second),
     Pair(this.first, this.second - 1),
