@@ -1,5 +1,6 @@
-import puzzles.puzzle11dot1
+import puzzles.puzzle12
+import puzzles.puzzle12dot1
 
 fun main() {
-    println(puzzle11dot1())
+    println(puzzle12dot1())
 }

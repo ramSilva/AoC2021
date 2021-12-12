@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11f3d15d-a9d5-4195-9868-0d7b99f55cf1" name="Default Changelist" comment="small optimization">
+    <list default="true" id="11f3d15d-a9d5-4195-9868-0d7b99f55cf1" name="Default Changelist" comment="Puzzle 11">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle9.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle9.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/kotlin/puzzles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/input/puzzle12" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -72,6 +71,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/input/puzzle12" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/puzzles" />
       <recent name="$PROJECT_DIR$/input" />
       <recent name="$PROJECT_DIR$" />
@@ -291,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639147017387</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Puzzle 11">
+      <created>1639223019751</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1639223019751</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -306,7 +313,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="puzzle1" />
     <MESSAGE value="puzzle1.1" />
     <MESSAGE value="Puzzle2 and 2.1" />
     <MESSAGE value="Puzzle3" />
@@ -331,7 +337,8 @@
     <MESSAGE value="Puzzle 10.1" />
     <MESSAGE value="Add &quot;golfed&quot; versions of puzzle 10" />
     <MESSAGE value="small optimization" />
-    <option name="LAST_COMMIT_MESSAGE" value="small optimization" />
+    <MESSAGE value="Puzzle 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Puzzle 11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -345,6 +352,17 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle9.kt</url>
           <line>36</line>
           <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle12.kt</url>
+          <line>88</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <condition expression="pathSoFar.containsAll(listOf(&quot;start&quot;, &quot;A&quot;, &quot;c&quot;, &quot;A&quot;, &quot;b&quot;, &quot;A&quot;))" language="kotlin" />
+          <url>file://$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle12.kt</url>
+          <line>65</line>
+          <option name="timeStamp" value="82" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
