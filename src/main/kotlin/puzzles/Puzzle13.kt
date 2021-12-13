@@ -8,14 +8,10 @@ private val lines = File("input/puzzle13/input.txt").readLines().toMutableList()
 // My first part is dumb. Hardcoding the fold logic does nothing to help solve the 2nd half
 fun puzzle13(): Int {
     val (dots, folds) = lines.partition { it.isEmpty() || it[0].isDigit() }
-    val firstFold = folds[0]
-
     return dots.filter { it.isNotEmpty() }.fold(mutableSetOf<Pair<Int, Int>>()) { acc, dot ->
         val (x, y) = dot.split(",").map { it.toInt() }
 
-        acc.add(
-            Pair((firstFold.substringAfter('=').toInt() - x).absoluteValue, y)
-        )
+        acc.add(Pair((folds[0].substringAfter('=').toInt() - x).absoluteValue, y))
 
         acc
     }.size
