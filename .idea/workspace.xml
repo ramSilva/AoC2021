@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11f3d15d-a9d5-4195-9868-0d7b99f55cf1" name="Default Changelist" comment="puzzle 12">
+    <list default="true" id="11f3d15d-a9d5-4195-9868-0d7b99f55cf1" name="Default Changelist" comment="Puzzle 13">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle13.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle13.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -305,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639317435264</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Puzzle 13">
+      <created>1639389513007</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1639389513007</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -320,7 +327,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Puzzle2 and 2.1" />
     <MESSAGE value="Puzzle3" />
     <MESSAGE value="Puzzle3.1" />
     <MESSAGE value="Puzzle4" />
@@ -345,7 +351,8 @@
     <MESSAGE value="small optimization" />
     <MESSAGE value="Puzzle 11" />
     <MESSAGE value="puzzle 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="puzzle 12" />
+    <MESSAGE value="Puzzle 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="Puzzle 13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

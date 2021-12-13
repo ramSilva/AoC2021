@@ -26,23 +26,17 @@ fun puzzle13dot1(): Int {
     val (xfolds, yfolds) = folds.partition { it.contains('x') }
 
     val paper = mutableSetOf<Pair<Int, Int>>()
-    dots.filter { it.isNotEmpty() }.fold(paper) { acc, dot ->
+    dots.filterNot { it.isEmpty() }.fold(paper) { acc, dot ->
         val (x, y) = dot.split(",").map { it.toInt() }
 
-        val finalx = xfolds.fold(x) { acc, fold ->
-            val foldVal = fold.substringAfter('=').toInt()
-            if (acc > foldVal)
-                foldVal - (acc - foldVal)
-            else
-                acc
+        val finalx = xfolds.map { it.substringAfter('=').toInt() }.fold(x) { acc, fold ->
+            if (acc > fold) fold - (acc - fold)
+            else acc
         }
 
-        val finaly = yfolds.fold(y) { acc, fold ->
-            val foldVal = fold.substringAfter('=').toInt()
-            if (acc > foldVal)
-                foldVal - (acc - foldVal)
-            else
-                acc
+        val finaly = yfolds.map { it.substringAfter('=').toInt() }.fold(y) { acc, fold ->
+            if (acc > fold) fold - (acc - fold)
+            else acc
         }
 
         acc.add(Pair(finalx, finaly))
@@ -53,7 +47,7 @@ fun puzzle13dot1(): Int {
     for (y in 0..paper.maxByOrNull { it.second }!!.second) {
         var line = ""
         for (x in 0..paper.maxByOrNull { it.first }!!.first) {
-            if (Pair(x, y) in paper) line += "█" else line += " "
+            line += if (Pair(x, y) in paper) "█" else " "
         }
         println(line)
     }
