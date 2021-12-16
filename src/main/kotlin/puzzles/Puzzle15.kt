@@ -1,7 +1,6 @@
 package puzzles
 
 import java.io.File
-import kotlin.math.max
 
 private val lines = File("input/puzzle15/input.txt").readLines().toMutableList()
 
