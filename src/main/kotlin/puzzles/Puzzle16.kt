@@ -16,6 +16,19 @@ fun Packet.sumVersions(): Int =
     if (this is Operator) this.version + this.subpackets.sumOf { it.sumVersions() }
     else this.version
 
+fun Packet.print(padding: Int) {
+    var prt = """typeID: ${this.type}"""
+    prt = prt.padStart(prt.length + padding, ' ')
+    println(prt)
+    if (this is Operator) {
+        this.subpackets.forEach { it.print(padding + 1) }
+    } else {
+        prt = """-> ${(this as Literal).value.toLong(2)}"""
+        prt = prt.padStart(prt.length + padding, ' ')
+        println(prt)
+    }
+}
+
 fun Packet.calculate(): Long =
     if (this is Operator) {
         when (this.type) {
@@ -28,7 +41,9 @@ fun Packet.calculate(): Long =
             7 -> if (this.subpackets[0].calculate() == this.subpackets[1].calculate()) 1 else 0
             else -> 0
         }
-    } else (this as Literal).value.toLong(2)
+    } else {
+        (this as Literal).value.toLong(2)
+    }
 
 open class Packet(
     var version: Int = 0,
@@ -121,4 +136,4 @@ fun processPacket(string: String, padLiteral: Boolean): Packet {
 
 fun puzzle16() = processPacket(lines[0].toBinary(), true).sumVersions()
 
-fun puzzle16dot1() = processPacket(lines[0].toBinary(), true).calculate()
+fun puzzle16dot1() = processPacket(lines[0].toBinary(), true).also { it.print(0) }.calculate()

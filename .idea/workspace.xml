@@ -4,9 +4,23 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11f3d15d-a9d5-4195-9868-0d7b99f55cf1" name="Default Changelist" comment="Puzzle 16">
+    <list default="true" id="11f3d15d-a9d5-4195-9868-0d7b99f55cf1" name="Default Changelist" comment="Stuff">
+      <change afterPath="$PROJECT_DIR$/input/puzzle18/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/puzzle18/testInput.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/puzzle20/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/puzzle20/testInput.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/puzzle22/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/puzzle22/testInput.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/puzzle25/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/puzzle25/testInput.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle18.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle20.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle21.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle22.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle25.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle16.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle16.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -352,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639666867373</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Day 17">
+      <created>1639739280471</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1639739280471</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -367,8 +388,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update gitignore" />
-    <MESSAGE value="Change from kts to kt" />
     <MESSAGE value="Puzzle5" />
     <MESSAGE value="Make puzzle5 a single method" />
     <MESSAGE value="Improve puzzle5" />
@@ -392,7 +411,9 @@
     <MESSAGE value="Puzzle 14" />
     <MESSAGE value="Puzzle 15" />
     <MESSAGE value="Puzzle 16" />
-    <option name="LAST_COMMIT_MESSAGE" value="Puzzle 16" />
+    <MESSAGE value="Day 17" />
+    <MESSAGE value="Stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stuff" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -417,6 +438,26 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle14.kt</url>
           <line>67</line>
           <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle16.kt</url>
+          <line>19</line>
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle16.kt</url>
+          <line>21</line>
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle22.kt</url>
+          <line>55</line>
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/puzzles/Puzzle22.kt</url>
+          <line>58</line>
+          <option name="timeStamp" value="257" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
